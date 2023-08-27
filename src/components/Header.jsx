@@ -9,8 +9,8 @@ const Header = () => {
       </div>
       
       <ul>
-        <li><a href="#works">Home</a></li>
-        <li><a href="#works">Resume</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#resume">Resume</a></li>
       </ul>
     </header>
     // <header class="site-header">
