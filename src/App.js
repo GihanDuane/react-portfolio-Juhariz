@@ -1,18 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import ArtworkGrid from './components/ArtworkGrid';
-import About from './components/About';
-import Contact from './components/Contact';
+import Header from './components/Header';
+// import ArtworkGrid from './components/ArtworkGrid';
 import './style.css'; // Import your custom CSS here
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <ArtworkGrid />
-      <About />
-      <Contact />
-      <footer>&copy; 2023 Kheil Artimist. All rights reserved.</footer>
+      <Header />
+      {/* <ArtworkGrid /> */}
+      {/* <footer>&copy; 2023 Kheil Artimist. All rights reserved.</footer> */}
     </div>
   );
 }
