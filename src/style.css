@@ -43,6 +43,9 @@ ul li a {
   color: white;
 }
 
+ul li a:hover {
+  color: #13aff0;
+}
 /* Style the artwork grid section */
 section {
   padding: 40px;
