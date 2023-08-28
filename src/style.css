@@ -20,6 +20,10 @@ header {
   background-color: black;
 }
 
+header li .active {
+  color: #13aff0;
+}
+
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -72,4 +76,9 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: black;
+}
+
+/* nav album */
+.nav-album .nav-inline .active a{
+  color: #13aff0;
 }

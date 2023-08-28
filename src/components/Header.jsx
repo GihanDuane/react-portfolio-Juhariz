@@ -3,16 +3,16 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <div className="">
-        <div className="logo">Juhariz Pandog/Kheil Artimist</div>
-        <p>Freelancer Illustrator/Character Concept designer</p>
+      <div class="site-title title-font">
+        <a href="/" className="">Juhariz Pandog/Kheil Artimist</a>
+        <div class="site-subtitle visible-desktop">Freelance Illustrator/Character Concept designer</div>
       </div>
       
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" className="active">Home</a></li>
         <li><a href="#resume">Resume</a></li>
       </ul>
-    </header>
+            </header>
     // <header class="site-header">
     //             <div class="container-lg">
     //                 <div class="row row-middle">
