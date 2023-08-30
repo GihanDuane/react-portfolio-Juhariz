@@ -1,17 +1,30 @@
 import React from 'react';
 import Header from './components/Header';
-import Project from './Pages/Project';
-import ArtworkGrid from './components/ArtworkGrid';
+import Home from './Pages/Home';
+import Resume from './Pages/Resume';
+// import ArtworkGrid from './components/ArtworkGrid';
 import './style.css'; // Import your custom CSS here
 
+
 function App() {
+  let component;
+  switch (window.location.pathname) {
+    case "/Home":
+      component = <Home />
+      break
+    case "/Resume":
+      component = <Resume />
+      break
+  }
+
   return (
     <div className="App">
       <Header />
-      <Project />
+      <div className="container">{component}</div>
+      {/* <Project /> */}
       {/* <NavAlbum /> */}
-      <ArtworkGrid />
-      <footer>&copy; 2023 Kheil Artimist. All rights reserved.</footer>
+      {/* <ArtworkGrid /> */}
+      {/* <footer>&copy; 2023 Kheil Artimist. All rights reserved.</footer> */}
     </div>
   );
 }
