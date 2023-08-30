@@ -9,9 +9,12 @@ import './style.css'; // Import your custom CSS here
 function App() {
   let component;
   switch (window.location.pathname) {
-    case "/Home":
+    case "/":
       component = <Home />
       break
+    case "/Home":
+      component = <Home />
+      break  
     case "/Resume":
       component = <Resume />
       break
