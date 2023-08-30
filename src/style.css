@@ -43,6 +43,7 @@ ul li a {
   color: white;
 }
 
+
 /* Style the artwork grid section */
 section {
   padding: 40px;
@@ -81,4 +82,4 @@ footer {
 /* nav album */
 .nav-album .nav-inline .active a{
   color: #13aff0;
-}
+};
