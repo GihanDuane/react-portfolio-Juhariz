@@ -7,5 +7,6 @@ const ArtworkData = [
     // Add more artwork objects here
     ];
   
-  export default ArtworkData;
+export default ArtworkData;
+
   
