@@ -1,0 +1,156 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set black background for the entire page */
+body {
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+/* Style the navigation bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+header li .active {
+  color: #13aff0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style the artwork grid section */
+section {
+  padding: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.artwork-item img {
+  width: 100%;
+  border: 1px solid white;
+}
+
+/* Style  nav-album */
+.nav-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
+
+/* nav album */
+.nav-album .nav-inline .active a {
+  color: #13aff0;
+}
+
+/* Resume Page styles */
+.about-page {
+  font-size: 1rem;
+  line-height: 1.375;
+}
+
+.about-intro {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: #18181c;
+  text-align: center;
+}
+
+.container-sm {
+  max-width: 51.25rem;
+}
+
+.container-sm {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+}
+
+.about-photo img {
+  vertical-align: top;
+  border-radius: 50%;
+}
+
+img {
+  border-style: none;
+}
+
+.about-name {
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  text-transform: none;
+  font-size: 32px;
+  line-height: 1.375;
+}
+
+.about-position {
+  font-size: 1.25rem;
+  color: #f1f1f1;
+}
+
+.about-location {
+  margin-top: 0.5625rem;
+  color: #f1f1f1;
+}
+
+.about-email {
+  margin-top: 1.25rem;
+  margin-bottom: 70px;
+}
+
+.about-email > a {
+  background-color: transparent;
+  color: #13aff0;
+  text-decoration: none;
+  -webkit-transition: color 0.25s cubic-bezier(0.45, 0.3, 0.15, 0.95);
+  transition: color 0.25s cubic-bezier(0.45, 0.3, 0.15, 0.95);
+}
