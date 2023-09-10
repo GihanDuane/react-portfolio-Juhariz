@@ -18,6 +18,7 @@ function App() {
     case "/Resume":
       component = <Resume />
       break
+    default:  
   }
 
   return (
